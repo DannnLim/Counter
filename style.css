@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1, h2{
+justify-content: center;
+    display: flex;
+}
+
+#increment-button{
+padding: 15px;
+border-radius: 15%;
+/* align-content: center; */
+width: 10%;
+}
+
+#save-btn{
+    width:200px;
+    
+}
+
+#save-btn:hover{
+    background-color:blue;
+    color:white;
+    transition: 0.5s;
+    border: 1px solid red;
+    opacity: 20%;
+}
